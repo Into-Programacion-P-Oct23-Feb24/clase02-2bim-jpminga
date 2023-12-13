@@ -19,16 +19,20 @@ public class Ejemplo03 {
 
         // arreglo de tipo entero
         int[] arreglo1 = new int[5];
+        // La variable se ubica solo una vez
         
         // arreglo de tipo entero
         int[] arreglo2;
         arreglo2 = new int[5];
+        // La variable se copea doble vez 
         
         // arreglo de tipo entero
         int[] arreglo3 = {5, 10, 15, 20, 25}; // sin new
+        // Se utiliza los corchetes para no poner el new
         
         // arreglo de doubles - 3 elementos
         double[] arreglo4 = {5.1, 10.2, 15.2}; // sin new
+        // 
         
         // arreglo de cadenas - 4 elementos
         String[] arreglo5 = {"Loja", "Quito", "Zamora", "Machala"};
